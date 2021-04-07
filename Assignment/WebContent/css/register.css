@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+
+.card0 {
+    
+    border-radius: 0px
+}
+
+.card2 {
+    margin: 0px 40px
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 35px
+}
+
+.image {
+    width: 260px;
+    height: 180px
+}
+
+.border-line {
+    border-right: 1px solid #EEEEEE
+}
+
+.facebook {
+    
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;    
+    cursor: pointer
+}
+
+.twitter {
+    
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    cursor: pointer
+}
+
+.linkedin {
+    
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    cursor: pointer
+}
+
+.line {
+    height: 1px;
+    width: 45%;
+    background-color: #E0E0E0;
+    margin-top: 10px
+}
+
+.or {
+    width: 10%;
+    font-weight: bold
+}
+
+.text-sm {
+    font-size: 14px !important;
+    margin-left: -12px;
+}
+
+::placeholder {
+    color: #BDBDBD;
+    opacity: 1;
+    font-weight: 300
+}
+
+:-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300
+}
+
+::-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300
+}
+
+.message{
+	margin-top: -10px;
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+a {
+    color: inherit;
+    cursor: pointer
+}
+
+.btn-blue {
+    background-color: #1A237E;
+    width: 150px;
+    color: #fff;
+    border-radius: 2px
+}
+
+.btn-blue:hover {
+	background-color: #fff;
+    color:#1A237E;
+    border-color: #1A237E;
+    cursor: pointer
+}
+
+.bg-blue {
+    color: #fff;
+    background-color: #1A237E;
+}
+
+.btn-red:hover {
+	background-color: #fff;
+    color:#ff0000;
+    border-color: #ff0000;
+    cursor: pointer
+}
+
+.btn-red {
+    background-color: #ff0000;
+    width: 150px;
+    color: #fff;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+
+
+@media screen and (max-width: 991px) {
+    .logo {
+        margin-left: 0px
+    }
+
+    .image {
+        width: 300px;
+        height: 220px
+    }
+
+    .border-line {
+        border-right: none
+    }
+
+    .card2 {
+        border-top: 1px solid #EEEEEE !important;
+        margin: 0px 15px
+    }
+}
